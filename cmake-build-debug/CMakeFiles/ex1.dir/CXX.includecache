@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/user/Documents/2nd/C++/ex1/Big_Integer.h
+string
+-
+cstring
+-
+ostream
+-
+
+/cygdrive/c/Users/user/Documents/2nd/C++/ex1/main.cpp
+iostream
+-
+Big_Integer.h
+/cygdrive/c/Users/user/Documents/2nd/C++/ex1/Big_Integer.h
+my_set.h
+/cygdrive/c/Users/user/Documents/2nd/C++/ex1/my_set.h
+random
+-
+chrono
+-
+
+/cygdrive/c/Users/user/Documents/2nd/C++/ex1/my_set.h
+Big_Integer.h
+/cygdrive/c/Users/user/Documents/2nd/C++/ex1/Big_Integer.h
+
